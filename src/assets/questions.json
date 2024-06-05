@@ -1,0 +1,92 @@
+[
+    {
+      "question": "What is React?",
+      "answerOptions": [
+        {"id":0, "text": "Framework", "isCorrect": false },
+        {"id":1, "text": "Language", "isCorrect": false },
+        {"id":2, "text": "Tool", "isCorrect": false },
+        {"id":3, "text": "Library", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What does JSX stand for?",
+      "answerOptions": [
+        {"id":0, "text": "Syntax Extension", "isCorrect": false },
+        {"id":1, "text": "JavaScript XML", "isCorrect": true },
+        {"id":2, "text": "JSON Schema", "isCorrect": false },
+        {"id":3, "text": "JQuery Expressions", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Lifecycle method after rendering?",
+      "answerOptions": [
+        {"id":0, "text": "componentWillUnmount", "isCorrect": false },
+        {"id":1, "text": "componentDidUpdate", "isCorrect": false },
+        {"id":2, "text": "componentDidMount", "isCorrect": true },
+        {"id":3, "text": "componentWillUpdate", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Purpose of React Router?",
+      "answerOptions": [
+        {"id":0, "text": "Routing", "isCorrect": true },
+        {"id":1, "text": "State management", "isCorrect": false },
+        {"id":2, "text": "Component creation", "isCorrect": false },
+        {"id":3, "text": "Performance optimization", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Role of props in React?",
+      "answerOptions": [
+        {"id":0, "text": "State management", "isCorrect": false },
+        {"id":1, "text": "Styling", "isCorrect": false },
+        {"id":2, "text": "Data passing", "isCorrect": true },
+        {"id":3, "text": "Event handling", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Purpose of useState hook?",
+      "answerOptions": [
+        {"id":0, "text": "API fetching", "isCorrect": false },
+        {"id":1, "text": "Custom hooks", "isCorrect": false },
+        {"id":2, "text": "Side effects", "isCorrect": false },
+        {"id":3, "text": "State management", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Key prop in React lists?",
+      "answerOptions": [
+        {"id":0, "text": "Uniquely identify", "isCorrect": true },
+        {"id":1, "text": "Set background color", "isCorrect": false },
+        {"id":2, "text": "Apply CSS styles", "isCorrect": false },
+        {"id":3, "text": "Handle click events", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Purpose of useEffect in React?",
+      "answerOptions": [
+        {"id":0, "text": "Reusable components", "isCorrect": false },
+        {"id":1, "text": "Side effects", "isCorrect": true },
+        {"id":2, "text": "State management", "isCorrect": false },
+        {"id":3, "text": "Performance optimization", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Difference between controlled and uncontrolled components?",
+      "answerOptions": [
+        {"id":0, "text": "Form input management", "isCorrect": true },
+        {"id":1, "text": "Styling approach", "isCorrect": false },
+        {"id":2, "text": "Event handling", "isCorrect": false },
+        {"id":3, "text": "State management", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Purpose of useContext hook?",
+      "answerOptions": [
+        {"id":0, "text": "Routing", "isCorrect": false },
+        {"id":1, "text": "Custom hooks", "isCorrect": false },
+        {"id":2, "text": "Global state management", "isCorrect": true },
+        {"id":3, "text": "Performance optimization", "isCorrect": false }
+      ]
+    }
+  ]
