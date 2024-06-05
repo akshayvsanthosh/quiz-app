@@ -58,13 +58,13 @@ function Quiz() {
   }
   
   return (
-    <div style={{ width: "100%", height: "100vh", backgroundColor: "#31acff" }}>
+    <div style={{ width: "100%", minHeight: "100vh", backgroundColor: "#31acff" }}>
       <Grid container className="d-flex justify-content-center" sx={{ minHeight: "100vh" }}>
-        <Grid xs={6.5} sx={{ minHeight: "100vh" }}>
+        <Grid md={6.5} xs={12} sx={{ minHeight: "100vh" }}>
           <div className='d-flex align-items-center' style={{ minHeight: "100vh" }}>
-            <div className='w-100 bgdiv rounded-4' style={{ height: "450px", backgroundColor: "#ff8431" }}>
+            <div className='w-100 bgdiv rounded-4' style={{ minHeight: "450px", backgroundColor: "#ff8431" }}>
               {result ?
-                <Row className='w-100 m-0 rounded-4' style={{ backdropFilter: "blur(10px)", height: "450px", }}>
+                <Row className='w-100 m-0 rounded-4' style={{ backdropFilter: "blur(10px)", minHeight: "450px", }}>
                   <Col xs={12} className='heading' style={{ height: "10%" }}>
                     Quiz Challenge
                     <hr className='w-75' />
@@ -76,7 +76,7 @@ function Quiz() {
                   <Col xs={12}>
                     <Grid container spacing={2}>
                       {questions[currentQuest].answerOptions.map(options => (
-                        <Grid xs={6} key={options.id}>
+                        <Grid xs={12} sm={6} md={12} lg={6} key={options.id}>
                           <div className='d-flex justify-content-center'>
                             <button onClick={()=>handleButton(options.isCorrect)} className='bttnstyle'>{options.text}</button>
                           </div>
